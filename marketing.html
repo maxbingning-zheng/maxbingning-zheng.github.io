@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snookerPad - 专业斯诺克计分器</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 48px 36px;
+            max-width: 480px;
+            width: 100%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 0 0 8px;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #6e6e73;
+            margin-bottom: 32px;
+        }
+        .features {
+            text-align: left;
+            margin: 0 auto 32px;
+            max-width: 320px;
+        }
+        .features li {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #1d1d1f;
+            list-style: none;
+            padding-left: 0;
+        }
+        .features li::before {
+            content: "✓ ";
+            color: #0071e3;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: #0071e3;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 14px 32px;
+            border-radius: 980px;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.85;
+        }
+        .footer {
+            margin-top: 36px;
+            font-size: 12px;
+            color: #86868b;
+            line-height: 1.6;
+        }
+        .footer a {
+            color: #86868b;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>snookerPad</h1>
+        <p class="subtitle">专业斯诺克计分器 · 严格遵循 WST 规则</p>
+
+        <ul class="features">
+            <li>实时比分投屏，打造专业赛事体验</li>
+            <li>深度数据统计，精准复盘每一杆</li>
+            <li>双人协作记录，数据无缝同步</li>
+            <li>智能分数计算，助您制定战术</li>
+        </ul>
+
+        <a class="btn" href="https://apps.apple.com/app/id你的AppID" target="_blank">前往 App Store 下载</a>
+
+        <div class="footer">
+            <p>如有问题或建议，请联系：<a href="mailto:你的邮箱@example.com">你的邮箱@example.com</a></p>
+            <p><a href="PrivacyPolicy.html">隐私政策</a></p>
+        </div>
+    </div>
+</body>
+</html>
